@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+	"name": "New Focus",
+	"description": "New page now displays the focus of the day.",
+	"version": "0.1",
+	"author": "Vojtech Kresala",
+	"browser_action": {
+		"default_icon": "focus-icon.png",
+		"default_title": "Focus of day"
+	},
+	"chrome_url_overrides" : {
+		"newtab": "new_tab.html"
+	},
+	"permissions": ["activeTab"]
+}
